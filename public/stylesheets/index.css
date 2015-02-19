@@ -1,0 +1,533 @@
+
+body {
+    
+    height: auto;
+    width: 100%;
+    background-color: rgb(245,245,245);
+    //background-color:green;
+    padding:0;
+    margin:0;
+}
+
+.menue {
+ 
+    width:100%;
+    height:85px;
+    background-color:rgba(0,0,0,0.85);
+    position:fixed;
+    top:0;
+    z-index:200;
+    //background-image: url('/images/menu_background.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.smallLogoDiv {
+ 
+    width:60px;
+    height:60px;
+    position:absolute;
+   // background-image: url('/images/buzzMeLogoSmall.png');
+    background-size:cover;
+    margin-top:12px;
+    left:50%;
+    margin-left:-240px;
+    
+}
+
+.logoDiv {
+ 
+    height:60%;
+    width:340px;
+    position:absolute;
+    //background-color:red;
+    left:50%;
+    margin-left:-170px;
+    background-image: url('/images/buzzmeLogo3.2.png');
+    background-size:cover;
+    background-position:center;
+    top:15px;
+ 
+}
+
+.thinLine {
+ 
+   height:1px;
+   width:580px;
+   background-color:white;
+   position:absolute;
+   top:72px;
+   left:50%;
+   margin-left:-290px;
+ 
+}
+
+.centralDiv {
+    
+    height: auto;
+    width: 700px;
+    background-color: rgba(255,255,255,0.8);
+    position: absolute;
+    top:0px;
+    left: 50%;
+    margin-left: -350px;
+    z-index:100;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.article {
+ 
+    height: 500px;
+    width: 80%;
+    
+    position:relative;
+    margin: 100px auto;
+    background-size:cover;
+    background-position: center;
+    //border-width:0px;
+    //border-style:solid;
+    //border-color:white;
+}
+
+.blurr {
+    
+    width:100%;
+    height:100%;
+    opacity:0;
+    position:absolute;
+    top:0px;
+    right:0px;
+    background-position:center;
+    background-size: cover;
+    cursor: url(/images/hand_cursor.png), pointer;
+
+}
+
+.articleTitle {
+ 
+    height:150px;
+    width:100%;
+    background-color:rgba(0,0,0,0.6);
+    
+    color:#FFF5EE;
+    font-family: Apple Chancery;
+    //font-weight:regular;
+    //font-family:myFirstFont;
+    text-align:center;
+    line-height:50px;
+    font-size:35px;
+    background-size:cover;
+    background-position:top;
+    position:absolute;
+    z-index:100;
+    top:0;
+ 
+}
+
+.articleMenue {
+    
+    height:60px;
+    width:100%;
+    background-color:rgba(0,0,0,0.6);
+    position:absolute;
+    bottom:0;
+
+    z-index: 150;
+}
+
+.socialButton {
+ 
+    width:48px;
+    height:48px;
+    background-color:lightseagreen;
+    float:left;
+    margin-right:6px;
+    margin-top:6px;
+    margin-bottom:6px;
+    opacity:0.7;
+    cursor: pointer;
+ 
+}
+
+div.socialButton:hover{
+    opacity: 1;
+    
+}
+.signUpButton {
+    
+    width:140px;
+    height:48px;
+    margin-top:6px;
+    margin-bottom:6px;
+    position:absolute;
+    right:6px;
+    background-color:rgba(0,0,0,0.8);
+    color:white;
+    opacity:0.5;
+    font-family:myFirstFont;
+    text-align:center;
+    line-height:46px;
+    font-size:25px;
+    font-weight:bold;
+    cursor: pointer;
+}
+div.signUpButton:hover{
+    background-color:rgba(0,0,0,0.5);
+    opacity:1;
+    color: #007aff;
+    
+}
+.leftDiv1 {
+ 
+    height: 500px;
+    width: 220px;
+    //background-color: #007aff;
+    background-color: rgba(255,255,255,0.2);
+    position:fixed;
+    top:115px;
+    bottom:15px;
+    left:2vw;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #007aff;
+    border-width: 3px;
+    z-index:300;
+}
+
+.rightDiv1 {
+    
+    height: 500px;
+    width: 220px;
+    background-color: rgba(255,255,255,0.2);
+    position:fixed;
+    top:115px;
+    bottom:15px;
+    right:2vw;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #007aff;
+    border-width: 3px;
+    z-index:300;
+}
+.addDiv{
+    
+    cursor: default;
+    background-color:white;
+    opacity:0.95;
+    width: 100%;
+    position:absolute;
+    top: 0px;
+    height: 100%;
+    font-family: arial;
+    font-size: 30px;
+    color:darkgrey
+
+}
+.googleContainer {
+    
+    height: 250px;
+    //background-color: #007aff;
+    background-color: rgba(255,255,255,0.2);
+    position:relative;
+    top:0px;
+    bottom:15px;
+    width: 80%;
+    margin: 100px auto;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #007aff;
+    border-width: 3px;
+}
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('/fonts/CODE Light.otf');
+}
+
+.signUp {
+
+    background-color: clear;
+    opacity:1;
+    position: absolute;
+    width:100%;
+    height:100%;
+    top: 0%;
+    text-align: center;
+    
+}
+
+.article_1Link{
+    
+    position: absolute;
+    width:600px;
+    height:600px;
+    left: 50%;
+    margin-left:-300px;
+    top:0px;
+    background-image: url('/images/woman.jpg');
+    background-size:cover;
+    
+    color:white;
+    font-family:myFirstFont;
+    text-align:center;
+    line-height:50px;
+    font-size:35px;
+    font-weight:bold;
+    background-size:cover;
+
+}
+
+.Button_1{
+    
+    position:absolute;
+    top:10%;
+    left: 50%;
+    margin-left: -100px;
+    width:200px;
+    height:50px;
+    background-color: blue;
+
+}
+.logInButton{
+    position: absolute;
+    top:53%;
+    left:50%;
+    margin-left: -125px;
+    background-color:white;
+    width:250px;
+    height:50px;
+    background-image: url('/images/LogIn.jpg');
+    background-size: cover;
+    background-position:center;
+    cursor: pointer;
+
+}
+.newOnButton{
+    position: absolute;
+    top:65%;
+    left:50%;
+    margin-left: -125px;
+    background-color:white;
+    width:250px;
+    height:50px;
+    background-image: url('/images/newOn.jpg');
+    background-size: cover;
+    background-position:center;
+    cursor: pointer;
+    
+}
+div.newOnButton:hover{
+    opacity:0.8;
+}
+div.logInButton:hover{
+    opacity:0.8;
+}
+.eingabeMail{
+    top:25%;
+    width:250px;
+    height: 30px;
+    position: absolute;
+    left:50%;
+    margin-left:-126px;
+    background-color:lightgray;
+    border-width:2px;
+    border-color:darkgrey;
+    text-align:center;
+    font-size:20px;
+    font-family:muli;
+    border-style:solid;
+}
+.eingabePasswort{
+    width:250px;
+    height: 30px;
+    position: absolute;
+    left:50%;
+    top:35%;
+    margin-left:-126px;
+    background-color:lightgray;
+    border-width:2px;
+    border-color:darkgrey;
+    text-align:center;
+    font-size:20px;
+    font-family:muli;
+    border-style:solid;
+
+}
+.cancel{
+    
+    font-family:muli;
+    font-size: 20px;
+    color: lightgray;
+    position: absolute;
+    width: 100px;
+    left:50%;
+    margin-left:-50px;
+    top: 79%;
+    text-align:center;
+    cursor: pointer;
+
+}
+
+div.cancel:hover{
+    color: grey;
+}
+
+.forward{
+    position:absolute;
+    right:0px;
+    top: 0px;
+    width:50%;
+    height:100%;
+    background-color:clear;
+    opacity:0.5;
+    cursor: url(/images/hand_cursor.png), pointer;
+    background-size:contain;
+    background-position:center;
+
+}
+
+.backward{
+    position:absolute;
+    left:0px;
+    top: 0px;
+    width:50%;
+    height:100%;
+    background-color:clear;
+    opacity:0.5;
+    cursor: url(/images/hand_cursor.png), pointer;
+    background-size:contain;
+    background-position:center;
+
+}
+
+.more{
+    width:250px;
+    height:48px;
+    background-color:lightseagreen;
+    float:right;
+    margin-right:6px;
+    margin-top:6px;
+    margin-bottom:6px;
+    opacity:0.7;
+    cursor: pointer;
+    background-image: url('/images/more.jpg');
+    background-size:cover;
+    background-position: center;
+
+}
+div.more:hover{
+    opacity:1;
+
+}
+@media only screen and (max-device-width: 800px) {
+    
+    .centralDiv {
+        
+        width: 100%;
+        position:relative;
+        left: 0;
+        margin-left: 0;
+        margin-top: 300px;
+        background-color:transparent;
+    }
+    
+    .article {
+        
+        height: 880px;
+        width: 100%;
+        padding:0px;
+    }
+    
+    .articleMenue {
+        
+        height:140px;
+        width:100%;
+        bottom:-1px;
+    }
+    
+    .socialButton {
+        
+        width:110px;
+        height:110px;
+        margin-right:15px;
+        margin-top:15px;
+        margin-bottom:15px;
+        opacity:1;
+    }
+    
+    .articleTitle {
+        
+        top:-1px;
+        position:absolute;
+        margin-top:0px;
+        height:188px;
+        width:100%;
+        line-height:135px;
+        font-size:60px;
+    }
+    
+    .menue {
+        
+        width:100%;
+        height:140px;
+        
+    }
+    
+    .logoDiv {
+        
+        height:70%;
+        width:76%;
+        margin-left:-38%;
+        background-position:center;
+        top:15px;
+        
+    }
+    
+    body {
+        
+        background-color: rgba(0,0,0, 0.85);
+    }
+    
+    .forward{
+        position:absolute;
+        right:0px;
+        top: 0px;
+        width:50%;
+        height:99%;
+        
+    }
+    
+    .backward{
+        position:absolute;
+        left:0px;
+        top: 0px;
+        width:50%;
+        height:99%;
+    }
+    
+    .thinLine {
+        
+        height:0;
+    }
+    .more{
+        width:360px;
+        height:110px;
+        margin-right:15px;
+        margin-top:15px;
+        margin-bottom:15px;
+        opacity:1;
+        background-image: url('/images/more_phone.jpg');
+        
+    }
+
+}
+
+
+
+
+
+
+
