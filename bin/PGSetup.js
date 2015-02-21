@@ -4,6 +4,7 @@
 var pg = require('pg');
 var conString = "postgres://postgres:Sa89Ga90Vi90@localhost:5432/buzzMeDB";
 var db = null;
+//http://ec2-54-93-52-115.eu-central-1.compute.amazonaws.com AWS adress ... 
 //var connection = new pg.Client(conString);
 
 module.exports = function () {
@@ -61,17 +62,18 @@ pg.connect(conString, function(err, client, done) {
 
 */
 
-/* // INSERT OR DELETE DATA ... //
+ // INSERT OR DELETE DATA ... //
 pg.connect(conString, function(err, client, done) {
            
            if(err) {
            return console.error('error fetching client from pool', err);
-           }
+         	console.log("[+] error connectiong to buzzMeDB");
+	   }
            
            console.log("");
            console.log("[+] List of BuzzMeArticles");
            
-           //client.query("INSERT INTO buzzmezonearticles(title, numberofpages) VALUES( $1, $2 )", ["Let it flow !", 4]); // currently at state 9 Users
+          // client.query("INSERT INTO buzzmezonearticles(title, numberofpages) VALUES( $1, $2 )", ["Let it flow !", 4]); // currently at state 9 Users
            //client.query("DELETE FROM  buzzarticles WHERE id = '1'");
         
            client.query("SELECT * FROM buzzmezonearticles", function(err, result) {
@@ -93,6 +95,6 @@ pg.connect(conString, function(err, client, done) {
 
 
 
-*/
+
 
 

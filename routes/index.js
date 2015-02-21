@@ -13,6 +13,7 @@ var connection = require('../bin/PGSetup.js')();
                    });
 
     var articles = [0];
+	console.log("[+] START BROWSING DB DATA ");
     connection.query("SELECT * FROM buzzmezonearticles", function(err, result) {
                  
                  console.log("[+] PGdb called from index.js");
@@ -29,10 +30,11 @@ var connection = require('../bin/PGSetup.js')();
 
 
 router.get('/', function(req, res) {
+	console.log("[+] test log ... ");
   res.render('index', {
              articlesData: articles,
              jasonData: JSON.stringify(articles)
-             });
+	     });
 });
 
 router.get('/singleArticle/:id', function(req, res) {
@@ -70,7 +72,8 @@ router.get('/socialArticle/:id', function(req, res) {
            var params = req.params;
                     res.render('socialArticle', {
                                id: req.params.id,
-                               jasonData: JSON.stringify(req.params.id)
+                               title: req.params.title,
+			       jasonData: JSON.stringify(req.params.id)
                     });
 
            
