@@ -70,7 +70,8 @@ router.get('/singleArticle/:id', function(req, res) {
 router.get('/socialArticle/:id', function(req, res) {
            
            var params = req.params;
-                    res.render('socialArticle', {
+                    console.log("[+] SOCIALARTICLE: title: " + req.params.title);
+		    res.render('socialArticle', {
                                id: req.params.id,
                                title: req.params.title,
 			       jasonData: JSON.stringify(req.params.id)
