@@ -61,7 +61,7 @@ router.get('/singleArticle/:id', function(req, res) {
              
              } else {
                  res.redirect('/');
-             }
+             };
             
 });
            
@@ -70,12 +70,24 @@ router.get('/singleArticle/:id', function(req, res) {
 router.get('/socialArticle/:id', function(req, res) {
            
            var params = req.params;
-                    console.log("[+] SOCIALARTICLE: title: " + req.params.title);
-		    res.render('socialArticle', {
-                               id: req.params.id,
-                               title: req.params.title,
-			       jasonData: JSON.stringify(req.params.id)
-                    });
+           var article = [0];        
+          
+	   connection.query("SELECT * FROM buzzmezonearticles WHERE id = " + req.params.id , function(err, result) {
+
+          	  if (result.rows.length > 0) {
+
+           	 	 article = result.rows[0];
+
+			    res.render('socialArticle', {
+        	                       id: article.id,
+                	               title: article.title,
+				       jasonData: JSON.stringify(article)
+        	            });
+   	          } else {
+        	         res.redirect('/');
+             };
+
+});
 
            
            });

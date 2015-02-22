@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta property="og:image" content="http://www.buzzme.zone/images/article_1/buzzImg_1.jpg" />
+</head>
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -25,8 +31,8 @@
     
     
     {{#articlesData}}
-   
-    <div  id="article_{{id}}" class="article" style="background-image: url('/images/article_{{id}}/buzzImg_1.jpg');">
+
+        <div  id="article_{{id}}" class="article" style="background-image: url('/images/article_{{id}}/buzzImg_1.jpg');">
         <div id="backward_{{id}}" class="backward" onclick="backPicture({{id}}, {{numberofpages}})"></div>
         <div id="forward_{{id}}" class="forward" onclick="nextPicture({{id}}, {{numberofpages}})"></div>
         <div id="article_blur_{{id}}" class="blurr" style="background-image: url('/images/article_{{id}}/buzzImg_blurr.jpg');"onmouseover="articleOver({{id}})" onmouseout="articleOut({{id}})" onclick="nextPicture({{id}}, {{numberofpages}})"></div>
@@ -60,3 +66,5 @@
 
     
 </div>
+
+</html>
