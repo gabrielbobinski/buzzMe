@@ -112,9 +112,9 @@ body {
     background-color:rgba(0,0,0,0.6);
     
     color:#FFF5EE;
-    // font-family:didot;
-    font-weight: bold;
-    font-family:myFirstFont;
+    font-family: arial;
+    font-weight: Light;
+    //font-family:myFirstFont;
     text-align:center;
     line-height:50px;
     font-size:35px;
