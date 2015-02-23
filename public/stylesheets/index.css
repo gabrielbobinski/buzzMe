@@ -422,6 +422,14 @@ div.more:hover{
     opacity:1;
 
 }
+
+.buttonImpressum{
+    width: 200px;
+    height: 50px;
+    background-color:red;
+    position:absolute;
+    float: bottom;
+}
 @media only screen and (max-device-width: 800px) {
     
     .centralDiv {
