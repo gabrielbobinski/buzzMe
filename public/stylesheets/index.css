@@ -472,14 +472,14 @@ div.clips:hover{
 }
 
 #frame {
-    top: 25px;
+    top: 30px;
     position: absolute;
     left: 0;
-    -ms-transform: scale(1.82);
-    -moz-transform: scale(1.82);
-    -o-transform: scale(1.84);
-    -webkit-transform: scale(1.82);
-    transform: scale(1.82);
+    -ms-transform: scale(1.83);
+    -moz-transform: scale(1.83);
+    -o-transform: scale(1.83);
+    -webkit-transform: scale(1.83);
+    transform: scale(1.83);
     
     -ms-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
