@@ -436,6 +436,9 @@ div.more:hover{
     color: gray;
     cursor: pointer;
 }
+div.buttonImpressum:hover{
+    color: darkgray;
+}
 
 .clips{
     width: 80px;
