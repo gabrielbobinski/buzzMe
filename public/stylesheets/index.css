@@ -38,12 +38,12 @@ body {
 
 .logoDiv {
  
-    height:60%;
-    width:340px;
+    height:80%;
+    width:400px;
     position:absolute;
     //background-color:red;
     left:50%;
-    margin-left:-170px;
+    margin-left:-200px;
     background-image: url('/images/buzzmeLogo3.2.png');
     background-size:cover;
     background-position:center;
