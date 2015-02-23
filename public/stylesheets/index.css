@@ -434,7 +434,7 @@ div.more:hover{
     font-family: arial;
     font-size:15px;
     color: black;
-    cursor: hand;
+    cursor: pointer;
 }
 @media only screen and (max-device-width: 800px) {
     
