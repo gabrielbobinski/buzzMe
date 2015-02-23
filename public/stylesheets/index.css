@@ -472,7 +472,7 @@ div.clips:hover{
     background-color: #7cb0ff;
 }
 
-.frame {
+/*.frame {
     
     //position: absolute;
     //left: 0;
@@ -491,7 +491,7 @@ div.clips:hover{
     height: 440px;
     border: 0;
 
-}
+}*/
 
 
 @media only screen and (max-device-width: 800px) {
