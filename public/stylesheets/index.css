@@ -203,7 +203,8 @@ div.signUpButton:hover{
     position:fixed;
     top:115px;
     bottom:15px;
-    //text-align:center;
+    line-height:100px;
+    text-align:center;
     right:2vw;
     cursor: pointer;
     border-style: solid;
