@@ -248,6 +248,9 @@ div.signUpButton:hover{
 @font-face {
     font-family: myFirstFont;
     src: url('/fonts/CODE Light.otf');
+    
+    font-family: mySecondFont;
+    src: url('/fonts/CODE Light.otf');
 }
 
 .signUp {
