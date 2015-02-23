@@ -45,8 +45,8 @@ function setSideDivs(){
         
         document.getElementById('addContainerRight').style.width = '220px';
         document.getElementById('addContainerLeft').style.width = '220px';
-        document.getElementById('frame1').style.width = 200;
-        document.getElementById('frame2').style.width = 200;
+        document.getElementById('frame1').style.width = 200px;
+        document.getElementById('frame2').style.width = 200px;
         
         document.getElementById('addContainerRight').style.borderWidth = '3px';
         document.getElementById('addContainerLeft').style.borderWidth = '3px';
