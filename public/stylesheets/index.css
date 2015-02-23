@@ -183,7 +183,7 @@ div.signUpButton:hover{
     overflow: hidden;
     height: 500px;
     width: 220px;
-    background-color: #2E2E2E;
+    //background-color: #2E2E2E;
     //background-color: rgba(255,255,255,0.2);
     position:fixed;
     top:115px;
@@ -200,7 +200,7 @@ div.signUpButton:hover{
     
     height: 500px;
     width: 220px;
-    background-color: #2E2E2E;
+    //background-color: #2E2E2E;
     //background-color: rgba(255,255,255,0.2);
     position:fixed;
     top:115px;
