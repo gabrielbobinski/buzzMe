@@ -426,7 +426,7 @@ div.more:hover{
 .buttonImpressum{
     width: 200px;
     height: 50px;
-    background-color:red;
+    background-color:clear;
     position:absolute;
     float: bottom;
     text-align: center;
