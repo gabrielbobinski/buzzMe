@@ -472,7 +472,7 @@ div.clips:hover{
 }
 
 #frame {
-    
+    left: 0;
     -ms-transform: scale(1.8);
     -moz-transform: scale(1.8);
     -o-transform: scale(1.8);
