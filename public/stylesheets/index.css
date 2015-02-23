@@ -247,10 +247,10 @@ div.signUpButton:hover{
 
 @font-face {
     font-family: myFirstFont;
-    src: url('/fonts/CODE Light.otf');
+    src: url('/fonts/ClementePDae-Light.ttf');
     
     font-family: mySecondFont;
-    src: url('/fonts/CODE Light.otf');
+    src: url('/fonts/ClementePDag-Book.ttf');
 }
 
 .signUp {
