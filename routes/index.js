@@ -93,8 +93,8 @@ router.get('/socialArticle/:id', function(req, res) {
            });
 
 /* GET Impressum page. */
-router.get('/Impressum', function(req, res) {
-           res.render('Impressum');
+router.get('/impressum', function(req, res) {
+           res.render('impressum');
            });
 
 
