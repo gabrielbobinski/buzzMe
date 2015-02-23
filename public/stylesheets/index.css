@@ -111,7 +111,7 @@ body {
     width:100%;
     background-color:rgba(0,0,0,0.6);
     color:rgba(255,255,255,0.8);
-    font-family: papyrus;
+    font-family: muli;
     font-weight: Light;
     //font-family:myFirstFont;
     text-align:center;
@@ -454,7 +454,7 @@ div.buttonImpressum:hover{
     height: 100%;
     position: absolute;
     left: 15%;
-    font-family: arial;
+    font-family: muli;
     font-weight: regular;
     color: #7cb0ff;
     line-height:85px;
