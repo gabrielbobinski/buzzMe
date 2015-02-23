@@ -473,7 +473,6 @@ div.clips:hover{
 
 #frame {
     
-    overflow: hidden;
     -ms-transform: scale(1.8);
     -moz-transform: scale(1.8);
     -o-transform: scale(1.8);
