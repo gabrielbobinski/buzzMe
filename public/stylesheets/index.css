@@ -112,8 +112,8 @@ body {
     background-color:rgba(0,0,0,0.6);
     color:rgba(255,255,255,0.8);
     font-family: muli;
-    font-weight: Light;
-    //font-family:myFirstFont;
+    //font-weight: Light;
+    font-family:mySecondFont;
     text-align:center;
     line-height:48px;
     font-size:35px;
