@@ -433,8 +433,16 @@ div.more:hover{
     line-height:50px;
     font-family: arial;
     font-size:15px;
-    color: black;
+    color: gray;
     cursor: pointer;
+}
+
+.clips{
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    left: 300px;
+    background-image: url('/images/CLIPSButton.png');
 }
 @media only screen and (max-device-width: 800px) {
     
