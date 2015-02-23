@@ -596,7 +596,8 @@ div.clips:hover{
         
     }
     .frame{
-        width:0;
+        height: 0px;
+        width: 0px;
     }
 
 }
