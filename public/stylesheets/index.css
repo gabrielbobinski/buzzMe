@@ -14,7 +14,7 @@ body {
     width:100%;
     height:85px;
     background-color:rgba(0,0,0,0.85);
-    position:absolute;
+    position:fixed;
     top:0;
     z-index:200;
     //background-image: url('/images/menu_background.png');
@@ -180,6 +180,7 @@ div.signUpButton:hover{
 }
 .leftDiv1 {
     
+    overflow: hidden;
     height: 439px;
     width: 220px;
     //background-color: #2E2E2E;
@@ -205,12 +206,13 @@ div.signUpButton:hover{
     top:150px;
     bottom:15px;
     line-height:100px;
+    text-align:center;
     right:2vw;
     cursor: pointer;
     border-style: solid;
     border-color: #007aff;
     border-width: 3px;
-    z-index:300;
+    //z-index:300;
 }
 .addDiv{
     
@@ -485,7 +487,7 @@ div.clips:hover{
     -o-transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
-    width: 0px;
+    width: 200px;
     height: 440px;
     border: 0;
 
@@ -531,7 +533,7 @@ div.clips:hover{
     .articleTitle {
         
         top:-1px;
-        position:relative;
+        position:absolute;
         margin-top:0px;
         height:188px;
         width:100%;
@@ -541,7 +543,7 @@ div.clips:hover{
     
     .menue {
         
-        position: fixed;
+        position: absolute;
         width:100%;
         height:140px;
         
