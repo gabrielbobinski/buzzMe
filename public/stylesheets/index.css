@@ -487,8 +487,8 @@ div.clips:hover{
     -o-transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
-    //width: 200px;
-    //height: 440px;
+    width: 200px;
+    height: 440px;
     border: 0;
 
 }
