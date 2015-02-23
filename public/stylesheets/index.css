@@ -499,7 +499,7 @@ div.clips:hover{
     .centralDiv {
         
         width: 100%;
-        position:relative;
+        position:absolute;
         left: 0;
         margin-left: 0;
         margin-top: 300px;
