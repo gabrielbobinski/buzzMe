@@ -438,11 +438,12 @@ div.more:hover{
 }
 
 .clips{
-    width: 100px;
+    width: 80px;
     height: 100%;
     position: absolute;
     left: 300px;
     background-image: url('/images/CLIPSButton.png');
+    background-size: contain;
 }
 @media only screen and (max-device-width: 800px) {
     
