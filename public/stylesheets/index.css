@@ -471,8 +471,8 @@ div.clips:hover{
     background-color: #7cb0ff;
 }
 
-#frame { width: 800px; height: 520px; border: 1px solid black; }
-#frame { zoom: 4; -moz-transform: scale(4); -moz-transform-origin: 0 0; }
+#frame { width: 1000px; height: 1800px; border: 1px solid black; }
+#frame { zoom: 1; -moz-transform: scale(1); -moz-transform-origin: 0 0; }
 
 
 @media only screen and (max-device-width: 800px) {
