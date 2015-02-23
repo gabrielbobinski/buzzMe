@@ -472,7 +472,7 @@ div.clips:hover{
 }
 
 #frame { width: 800px; height: 520px; border: 1px solid black; }
-#frame { zoom: 2; -moz-transform: scale(2); -moz-transform-origin: 0 0; }
+#frame { zoom: 4; -moz-transform: scale(4); -moz-transform-origin: 0 0; }
 
 
 @media only screen and (max-device-width: 800px) {
