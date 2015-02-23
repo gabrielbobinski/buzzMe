@@ -448,7 +448,7 @@ div.buttonImpressum:hover{
     background-image: url('/images/CLIPSButton.png');
     background-size: contain;
     background-repeat: no-repeat;
-    opacity:0.7;
+    opacity:0.9;
     cursor: pointer;
     text-align:center;
     z-index: 300;
