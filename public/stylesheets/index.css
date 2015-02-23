@@ -595,6 +595,9 @@ div.clips:hover{
         background-image: url('/images/more_phone.jpg');
         
     }
+    .frame{
+        width:0;
+    }
 
 }
 
