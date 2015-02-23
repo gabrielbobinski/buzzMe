@@ -111,9 +111,8 @@ body {
     width:100%;
     background-color:rgba(0,0,0,0.6);
     color:rgba(255,255,255,0.8);
-    font-family: muli;
     //font-weight: Light;
-    font-family:mySecondFont;
+    font-family:myFirstFont;
     text-align:center;
     line-height:48px;
     font-size:35px;
@@ -245,12 +244,14 @@ div.signUpButton:hover{
 }
 
 
-@font-face {
-    font-family: myFirstFont;
-    src: url('/fonts/ClementePDae-Light.ttf');
-    
+@font-face {  
     font-family: mySecondFont;
     src: url('/fonts/ClementePDag-Book.ttf');
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('/fonts/ClementePDac-ExtraLight.ttf');
 }
 
 .signUp {
