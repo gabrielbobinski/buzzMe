@@ -179,7 +179,8 @@ div.signUpButton:hover{
     
 }
 .leftDiv1 {
- 
+    
+    overflow:hidden;
     height: 500px;
     width: 220px;
     //background-color: #007aff;
@@ -469,6 +470,9 @@ div.clips:hover{
     color: white;
     background-color: #7cb0ff;
 }
+
+#frame { width: 800px; height: 520px; border: 1px solid black; }
+#frame { zoom: 0.75; -moz-transform: scale(0.75); -moz-transform-origin: 0 0; }
 @media only screen and (max-device-width: 800px) {
     
     .centralDiv {
