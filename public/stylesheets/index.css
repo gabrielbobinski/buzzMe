@@ -190,9 +190,9 @@ div.signUpButton:hover{
     bottom:15px;
     left:2vw;
     cursor: pointer;
-    border-style: solid;
-    border-color: #007aff;
-    border-width: 3px;
+    //border-style: solid;
+    //border-color: #007aff;
+    //border-width: 3px;
     text-align: center;
 }
 
@@ -209,9 +209,9 @@ div.signUpButton:hover{
     text-align:center;
     right:2vw;
     cursor: pointer;
-    border-style: solid;
-    border-color: #007aff;
-    border-width: 3px;
+    //border-style: solid;
+    //border-color: #007aff;
+    //border-width: 3px;
     text-align: center;
 }
 .addDiv{

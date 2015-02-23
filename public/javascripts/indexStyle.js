@@ -48,8 +48,8 @@ function setSideDivs(){
         document.getElementById('frame1').style.width = '200px';
         //document.getElementById('frame2').style.width = '200px';
         
-        document.getElementById('addContainerRight').style.borderWidth = '3px';
-        document.getElementById('addContainerLeft').style.borderWidth = '3px';
+        //document.getElementById('addContainerRight').style.borderWidth = '3px';
+        //document.getElementById('addContainerLeft').style.borderWidth = '3px';
         
     }
     
