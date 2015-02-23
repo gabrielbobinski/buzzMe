@@ -181,7 +181,7 @@ div.signUpButton:hover{
 .leftDiv1 {
     
     overflow: hidden;
-    height: 500px;
+    height: 450px;
     width: 220px;
     //background-color: #2E2E2E;
     //background-color: rgba(255,255,255,0.2);
@@ -198,7 +198,7 @@ div.signUpButton:hover{
 
 .rightDiv1 {
     
-    height: 500px;
+    height: 450px;
     width: 220px;
     //background-color: #2E2E2E;
     //background-color: rgba(255,255,255,0.2);
@@ -473,7 +473,7 @@ div.clips:hover{
 }
 
 #frame {
-    top: 30px;
+    
     position: absolute;
     left: 0;
     -ms-transform: scale(1.83);
