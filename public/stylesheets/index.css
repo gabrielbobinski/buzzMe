@@ -193,7 +193,7 @@ div.signUpButton:hover{
     border-style: solid;
     border-color: #007aff;
     border-width: 3px;
-    //z-index:300;
+    text-align: center;
 }
 
 .rightDiv1 {
@@ -212,7 +212,7 @@ div.signUpButton:hover{
     border-style: solid;
     border-color: #007aff;
     border-width: 3px;
-    //z-index:300;
+    text-align: center;
 }
 .addDiv{
     
