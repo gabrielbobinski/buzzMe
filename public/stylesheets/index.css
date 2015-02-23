@@ -444,22 +444,22 @@ div.buttonImpressum:hover{
     width: 120px;
     height: 100%;
     position: absolute;
-    left: 20%;
+    left: 15%;
     font-family: Papyrus;
     color: #7cb0ff;
-    line-height:80px;
-    font-size:30px;
+    line-height:100px;
+    font-size:25px;
     text-align:center;
     //background-image: url('/images/CLIPSButton.png');
     background-size: cover;
     background-repeat: no-repeat;
-    opacity:0.8;
     cursor: pointer;
     text-align:center;
     z-index: 300;
 }
 div.clips:hover{
-    opacity:1;
+    color: white;
+    background-color: #7cb0ff;
 }
 @media only screen and (max-device-width: 800px) {
     
