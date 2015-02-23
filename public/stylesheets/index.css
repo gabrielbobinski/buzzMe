@@ -441,14 +441,19 @@ div.buttonImpressum:hover{
 }
 
 .clips{
-    width: 110px;
+    width: 120px;
     height: 100%;
     position: absolute;
     left: 20%;
-    background-image: url('/images/CLIPSButton.png');
+    font-family: Papyrus;
+    color: #7cb0ff;
+    line-height:80px;
+    font-size:30px;
+    text-align:center;
+    //background-image: url('/images/CLIPSButton.png');
     background-size: cover;
     background-repeat: no-repeat;
-    opacity:0.6;
+    opacity:0.8;
     cursor: pointer;
     text-align:center;
     z-index: 300;
