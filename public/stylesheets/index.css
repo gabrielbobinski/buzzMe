@@ -444,6 +444,7 @@ div.more:hover{
     left: 300px;
     background-image: url('/images/CLIPSButton.png');
     background-size: contain;
+    background-repeat: no-repeat;
 }
 @media only screen and (max-device-width: 800px) {
     
