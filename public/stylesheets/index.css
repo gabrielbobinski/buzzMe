@@ -467,10 +467,11 @@ div.clips:hover{
     .articleTitle {
         
         top:-1px;
+        
         position:absolute;
         margin-top:0px;
         height:188px;
-        width:100%;
+        width:96%;
         line-height:60px;
         font-size:55px;
     }
