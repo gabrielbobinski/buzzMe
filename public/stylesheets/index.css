@@ -301,7 +301,6 @@ div.signUpButton:hover{
     background-size:cover;
 
 }
->>>>>>> 19a2257ede75ba3e5a303c5114b02bf2c4aa2efb
 
 .Button_1{
     
@@ -389,14 +388,13 @@ div.buttonImpressum:hover{
     width: 120px;
     height: 100%;
     position: absolute;
-    left: 15%;
-    font-family: muli;
+    left: 20%;
+    font-family:mySecondFont;
     font-weight: regular;
     color: #7cb0ff;
     line-height:85px;
     font-size:25px;
     text-align:center;
-    //background-image: url('/images/CLIPSButton.png');
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -406,6 +404,12 @@ div.buttonImpressum:hover{
 div.clips:hover{
     color: white;
     background-color: #7cb0ff;
+}
+.youtube{
+    
+    margin-top: 120px;
+    position: relative;
+    
 }
 
 .frameAmazone{

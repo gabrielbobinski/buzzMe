@@ -97,6 +97,11 @@ router.get('/impressum', function(req, res) {
            res.render('Impressum');
            });
 
+/* GET clips page. */
+router.get('/clips', function(req, res) {
+           res.render('clips');
+           });
+
 
 
 connection.end;
