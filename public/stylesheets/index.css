@@ -111,7 +111,7 @@ body {
     padding-right:2%;
     background-color:rgba(0,0,0,0.8);
     color: white;
-    font-family:mySecondFont;
+    font-family:myThirdFont;
     text-align:center;
     line-height:45px;
     font-size:35px;
@@ -262,6 +262,11 @@ div.signUpButton:hover{
 @font-face {
     font-family: myFirstFont;
     src: url('/fonts/ClementePDac-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url('/fonts/ClementePDae-Light.ttf');
 }
 
 .signUp {
@@ -467,7 +472,7 @@ div.clips:hover{
     .articleTitle {
         
         top:-1px;
-        
+        font-family:mySecondFont;
         position:absolute;
         margin-top:0px;
         height:188px;
