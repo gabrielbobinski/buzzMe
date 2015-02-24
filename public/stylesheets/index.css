@@ -154,24 +154,6 @@ div.socialButton:hover{
     opacity: 1;
     
 }
-.signUpButton {
-    
-    width:140px;
-    height:48px;
-    margin-top:6px;
-    margin-bottom:6px;
-    position:absolute;
-    right:6px;
-    background-color:rgba(0,0,0,0.8);
-    color:white;
-    opacity:0.5;
-    font-family:myFirstFont;
-    text-align:center;
-    line-height:46px;
-    font-size:25px;
-    font-weight:bold;
-    cursor: pointer;
-}
 div.signUpButton:hover{
     background-color:rgba(0,0,0,0.5);
     opacity:1;
@@ -183,13 +165,12 @@ div.signUpButton:hover{
     overflow: hidden;
     height: 439px;
     width: 220px;
-    //background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.5);
     position:fixed;
-    top:150px;
+    top:120px;
     bottom:15px;
     left:2vw;
-    cursor: pointer;
-    //text-align: center;
+    text-align: center;
 }
 
 .rightDiv1 {
@@ -198,13 +179,12 @@ div.signUpButton:hover{
     width: 220px;
     //background-color: rgba(255,255,255,0.2);
     position:fixed;
-    top:150px;
+    top:200px;
     bottom:15px;
     line-height:100px;
-    text-align:center;
-    right:2vw;
-    cursor: pointer;
-    //text-align: center;
+    right:3vw;
+    text-align: center;
+    
 }
 .addDiv{
     
@@ -245,38 +225,6 @@ div.signUpButton:hover{
     src: url('/fonts/ClementePDag-Book.ttf');
 }
 
-.signUp {
-
-    background-color: clear;
-    opacity:1;
-    position: absolute;
-    width:100%;
-    height:100%;
-    top: 0%;
-    text-align: center;
-    
-}
-
-.article_1Link{
-    
-    position: absolute;
-    width:600px;
-    height:600px;
-    left: 50%;
-    margin-left:-300px;
-    top:0px;
-    background-image: url('/images/woman.jpg');
-    background-size:cover;
-    
-    color:white;
-    font-family:myFirstFont;
-    text-align:center;
-    line-height:50px;
-    font-size:35px;
-    font-weight:bold;
-    background-size:cover;
-
-}
 
 .Button_1{
     
@@ -289,90 +237,6 @@ div.signUpButton:hover{
     background-color: blue;
 
 }
-.logInButton{
-    position: absolute;
-    top:53%;
-    left:50%;
-    margin-left: -125px;
-    background-color:white;
-    width:250px;
-    height:50px;
-    background-image: url('/images/LogIn.jpg');
-    background-size: cover;
-    background-position:center;
-    cursor: pointer;
-
-}
-.newOnButton{
-    position: absolute;
-    top:65%;
-    left:50%;
-    margin-left: -125px;
-    background-color:white;
-    width:250px;
-    height:50px;
-    background-image: url('/images/newOn.jpg');
-    background-size: cover;
-    background-position:center;
-    cursor: pointer;
-    
-}
-div.newOnButton:hover{
-    opacity:0.8;
-}
-div.logInButton:hover{
-    opacity:0.8;
-}
-.eingabeMail{
-    top:25%;
-    width:250px;
-    height: 30px;
-    position: absolute;
-    left:50%;
-    margin-left:-126px;
-    background-color:lightgray;
-    border-width:2px;
-    border-color:darkgrey;
-    text-align:center;
-    font-size:20px;
-    font-family:muli;
-    border-style:solid;
-}
-.eingabePasswort{
-    width:250px;
-    height: 30px;
-    position: absolute;
-    left:50%;
-    top:35%;
-    margin-left:-126px;
-    background-color:lightgray;
-    border-width:2px;
-    border-color:darkgrey;
-    text-align:center;
-    font-size:20px;
-    font-family:muli;
-    border-style:solid;
-
-}
-.cancel{
-    
-    font-family:muli;
-    font-size: 20px;
-    color: lightgray;
-    position: absolute;
-    width: 100px;
-    left:50%;
-    margin-left:-50px;
-    top: 79%;
-    text-align:center;
-    cursor: pointer;
-
-}
-
-div.cancel:hover{
-    color: grey;
-}
-
 .forward{
     position:absolute;
     right:0px;
@@ -467,26 +331,29 @@ div.clips:hover{
     background-color: #7cb0ff;
 }
 
-/*.frame {
+.frameAmazone{
     
-    //position: absolute;
-    //left: 0;
-    -ms-transform: scale(1);
-    -moz-transform: scale(1);
-    -o-transform: scale(1);
-    -webkit-transform: scale(1);
-    transform: scale(1);
+    margin-top: -35px;
     
-    -ms-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-    width: 200px;
-    height: 440px;
-    border: 0;
+    -ms-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
 
-}*/
+}
+.litleHeader{
+    top: 100px;
+    background-color: clear;
+    position: fixed;
+    right: 1.8vw;
+    font-family:mySecondFont;
+    font-size:25px;
+    color: rgba(0,0,0,0.8);
+    width: 250px;
+    text-align:center;
+}
+
 
 
 @media only screen and (max-device-width: 800px) {

@@ -34,24 +34,23 @@ function setSideDivs(){
         
         document.getElementById('addContainerRight').style.width = 0;
         document.getElementById('addContainerLeft').style.width = 0;
-        document.getElementById('frame1').style.width = 0;
-        //document.getElementById('frame2').style.width = 0;
         
-        document.getElementById('addContainerRight').style.borderWidth = '0px';
-        document.getElementById('addContainerLeft').style.borderWidth = '0px';
-
+        document.getElementById('bookh').style.width = 0;
+        document.getElementById('bookh').style.opacity = 0;
+        document.getElementById('book1').style.width = 0;
+        document.getElementById('book2').style.width = 0;
         
+       
     }else{
         
         document.getElementById('addContainerRight').style.width = '220px';
         document.getElementById('addContainerLeft').style.width = '220px';
-        document.getElementById('frame1').style.width = '200px';
-        //document.getElementById('frame2').style.width = '200px';
         
-        //document.getElementById('addContainerRight').style.borderWidth = '3px';
-        //document.getElementById('addContainerLeft').style.borderWidth = '3px';
-        
-    }
+        document.getElementById('bookh').style.opacity = 1;
+        document.getElementById('bookh').style.width = '250px';
+        document.getElementById('book1').style.width = '170px';
+        document.getElementById('book2').style.width = '170px';
+           }
     
     
 };
