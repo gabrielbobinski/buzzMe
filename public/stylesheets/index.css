@@ -86,9 +86,7 @@ body {
     margin: 100px auto;
     background-size:cover;
     background-position: center;
-    //border-width:0px;
-    //border-style:solid;
-    //border-color:white;
+    background-color: lightgray;
 }
 
 .blurr {
