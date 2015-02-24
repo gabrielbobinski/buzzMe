@@ -112,7 +112,7 @@ body {
     background-color:rgba(0,0,0,0.6);
     color:rgba(255,255,255,0.8);
     //font-weight: Light;
-    font-family:mySecondFont;
+    font-family:myFirstFont;
     text-align:center;
     line-height:48px;
     font-size:35px;
@@ -221,8 +221,6 @@ div.signUpButton:hover{
     src: url('/fonts/ClementePDag-Book.ttf');
 }
 
-<<<<<<< HEAD
-=======
 @font-face {
     font-family: myFirstFont;
     src: url('/fonts/ClementePDac-ExtraLight.ttf');
