@@ -87,14 +87,14 @@ router.get('/socialArticle/:id', function(req, res) {
         	         res.redirect('/');
              };
 
-});
+	    });
 
            
-           });
+ });
 
 /* GET Impressum page. */
 router.get('/impressum', function(req, res) {
-           res.render('impressum');
+           res.render('Impressum');
            });
 
 

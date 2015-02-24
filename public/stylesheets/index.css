@@ -111,9 +111,8 @@ body {
     width:100%;
     background-color:rgba(0,0,0,0.6);
     color:rgba(255,255,255,0.8);
-    font-family: muli;
     //font-weight: Light;
-    font-family:mySecondFont;
+    font-family:myFirstFont;
     text-align:center;
     line-height:48px;
     font-size:35px;
@@ -217,14 +216,51 @@ div.signUpButton:hover{
 }
 
 
-@font-face {
-    font-family: myFirstFont;
-    src: url('/fonts/ClementePDae-Light.ttf');
-    
+@font-face {  
     font-family: mySecondFont;
     src: url('/fonts/ClementePDag-Book.ttf');
 }
 
+<<<<<<< HEAD
+=======
+@font-face {
+    font-family: myFirstFont;
+    src: url('/fonts/ClementePDac-ExtraLight.ttf');
+}
+
+.signUp {
+
+    background-color: clear;
+    opacity:1;
+    position: absolute;
+    width:100%;
+    height:100%;
+    top: 0%;
+    text-align: center;
+    
+}
+
+.article_1Link{
+    
+    position: absolute;
+    width:600px;
+    height:600px;
+    left: 50%;
+    margin-left:-300px;
+    top:0px;
+    background-image: url('/images/woman.jpg');
+    background-size:cover;
+    
+    color:white;
+    font-family:myFirstFont;
+    text-align:center;
+    line-height:50px;
+    font-size:35px;
+    font-weight:bold;
+    background-size:cover;
+
+}
+>>>>>>> 19a2257ede75ba3e5a303c5114b02bf2c4aa2efb
 
 .Button_1{
     
