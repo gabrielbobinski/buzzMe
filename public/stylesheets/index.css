@@ -110,8 +110,7 @@ body {
     height:150px;
     width:100%;
     background-color:rgba(0,0,0,0.6);
-    color:rgba(255,255,255,0.8);
-    //font-weight: Light;
+    color: white;
     font-family:myFirstFont;
     text-align:center;
     line-height:48px;
