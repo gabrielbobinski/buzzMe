@@ -213,7 +213,46 @@ div.signUpButton:hover{
     border-color: #007aff;
     border-width: 3px;
 }
-
+.addBlockPetitionRightUp{
+    position: fixed;
+    top: 180px;
+    
+    //background-color:rgba(0,0,0,0.5);
+    background-image:url('/images/petitionBackground.jpg');
+    background-size:cover;
+    
+    width: 115px;
+    right: 6.2vw;
+    height: 160px;
+    
+    padding: 15px;
+    padding-top: 40px;
+    
+    font-family: mySecondFont;
+    font-size: 20px;
+    color: white;
+    text-align:center;
+}
+.addBlockPetitionRightDown{
+    position: fixed;
+    top: 450px;
+    
+    //background-color:rgba(0,0,0,0.5);
+    background-image:url('/images/petitionBackground.jpg');
+    background-size:cover;
+    
+    width: 115px;
+    right: 6.2vw;
+    height: 160px;
+    
+    padding: 15px;
+    padding-top: 40px;
+    
+    font-family: mySecondFont;
+    font-size: 20px;
+    color: white;
+    text-align:center;
+}
 
 @font-face {  
     font-family: mySecondFont;
