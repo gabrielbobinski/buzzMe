@@ -16,6 +16,7 @@ function setDimensions(){
 window.onload = function(){
     setDimensions();
     setSideDivs();
+    
 }
 
 $( document ).ready(function(){
@@ -60,42 +61,6 @@ function setSideDivs(){
         document.getElementById('petAdLiUp').style.opacity = 1;
         
 
-    }
-    
-    
-};
-
-function setSideDivsSingle(){
-    
-    if(viewWidth < '1075'){
-        
-        document.getElementById('addContainerRightS').style.width = 0;
-        document.getElementById('addContainerLeftS').style.width = 0;
-        
-        document.getElementById('bookhS').style.width = 0;
-        document.getElementById('bookhS').style.opacity = 0;
-        document.getElementById('book1S').style.width = 0;
-        document.getElementById('book2S').style.width = 0;
-        
-        document.getElementById('petAdRiUpS').style.opacity = 0;
-        document.getElementById('petAdLiUpS').style.opacity = 0;
-        
-        
-        
-    }else{
-        
-        document.getElementById('addContainerRightS').style.width = '220px';
-        document.getElementById('addContainerLeftS').style.width = '220px';
-        
-        document.getElementById('bookhS').style.opacity = 1;
-        document.getElementById('bookhS').style.width = '250px';
-        document.getElementById('book1S').style.width = '170px';
-        document.getElementById('book2S').style.width = '170px';
-        
-        
-        document.getElementById('petAdRiUpS').style.opacity = 1;
-        document.getElementById('petAdLiUpS').style.opacity = 1;
-        
     }
     
     
