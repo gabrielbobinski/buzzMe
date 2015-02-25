@@ -12,25 +12,24 @@ var connection = require('../bin/PGSetup.js')();
                    }
                    });
 
-    var articles = [0];
-	console.log("[+] START BROWSING DB DATA ");
-    connection.query("SELECT * FROM buzzmezonearticles", function(err, result) {
-                 
-                 console.log("[+] PGdb called from index.js");
-                 console.log("");
-                 
-                 for( i=0 ; i<result.rows.length ; i++) {
-                    articles[i] = result.rows[i];
-                 }
-            
-                 console.log(articles);
-                 });
-
 // END SETUP POSTGRES SQL DB -------------------------------------------------
 
 
 router.get('/', function(req, res) {
-	console.log("[+] test log ... ");
+    var articles = [0];
+    console.log("[+] START BROWSING DB DATA ");
+    connection.query("SELECT * FROM buzzmezonearticles", function(err, result) {
+
+                 console.log("[+] PGdb called from index.js");
+                 console.log("");
+
+                 for( i=0 ; i<result.rows.length ; i++) {
+                    articles[i] = result.rows[i];
+                 }
+
+                 console.log(articles);
+                 });
+
   res.render('index', {
              articlesData: articles,
              jasonData: JSON.stringify(articles)
