@@ -39,13 +39,10 @@ function setSideDivs(){
         document.getElementById('bookh').style.opacity = 0;
         document.getElementById('book1').style.width = 0;
         document.getElementById('book2').style.width = 0;
-        document.getElementById('book1S').style.width = 0;
-        document.getElementById('book2S').style.width = 0;
-
+        
         document.getElementById('petAdRiUp').style.opacity = 0;
         document.getElementById('petAdLiUp').style.opacity = 0;
-        document.getElementById('petAdRiUpS').style.opacity = 0;
-        document.getElementById('petAdLiUpS').style.opacity = 0;
+        
 
        
     }else{
