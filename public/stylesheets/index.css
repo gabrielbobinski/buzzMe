@@ -553,8 +553,16 @@ div.clips:hover{
     .leftDiv1{ width=0;}
     .rightDiv1{ width=0;}
     
-    .addBlockPetitionRightUp{ width=0; }
-    .addBlockPetitionRightDown{ width=0; }
+    .addBlockPetitionRightUp{
+        width=0;
+        opacity:0;
+    
+    }
+    .addBlockPetitionRightDown{
+        
+        opacity:0;
+        width=0;
+    }
 }
 
 
