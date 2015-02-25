@@ -423,6 +423,17 @@ div.clips:hover{
     transform: scale(0.9);
 
 }
+.frameAmazoneS{
+    margin-top: -35px;
+    
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+
+
+}
 .litleHeader{
     top: 100px;
     background-color: clear;
