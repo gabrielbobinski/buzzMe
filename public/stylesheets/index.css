@@ -203,11 +203,11 @@ div.signUpButton:hover{
     
     height: 250px;
     //background-color: #007aff;
-    //background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.2);
     position:relative;
     top:0px;
     bottom:15px;
-    width: 80%;
+    width: 70%;
     margin: 100px auto;
     //cursor: pointer;
     border-style: solid;
