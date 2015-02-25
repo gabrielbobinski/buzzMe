@@ -549,11 +549,12 @@ div.clips:hover{
         -webkit-transform: scale(0);
         transform: scale(0);
     }
+    
     .leftDiv1{ width=0;}
     .rightDiv1{ width=0;}
     
-    .addBlockPetitionRightUp{width=0;}
-    .addBlockPetitionRightDown{width=0;}
+    .addBlockPetitionRightUp{ width=0; }
+    .addBlockPetitionRightDown{ width=0; }
 }
 
 
