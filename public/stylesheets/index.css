@@ -539,7 +539,7 @@ div.clips:hover{
         background-image: url('/images/more_phone.jpg');
         
     }
-    .frame{
+    .frameAmazone{
         height: 0px;
         width: 0px;
         
@@ -551,6 +551,9 @@ div.clips:hover{
     }
     .leftDiv1{ width=0;}
     .rightDiv1{ width=0;}
+    
+    .addBlockPetitionRightUp{width=0;}
+    .addBlockPetitionRightDown{width=0;}
 }
 
 
