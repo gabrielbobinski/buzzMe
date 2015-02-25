@@ -57,14 +57,14 @@ function setSideDivs(){
         document.getElementById('bookh').style.width = '250px';
         document.getElementById('book1').style.width = '170px';
         document.getElementById('book2').style.width = '170px';
-        document.getElementById('book1S').style.width = '170px';
-        document.getElementById('book2S').style.width = '170px';
+        /*document.getElementById('book1S').style.width = '170px';
+        document.getElementById('book2S').style.width = '170px';*/
 
 
         document.getElementById('petAdRiUp').style.opacity = 1;
         document.getElementById('petAdLiUp').style.opacity = 1;
-        document.getElementById('petAdRiUpS').style.opacity = 1;
-        document.getElementById('petAdLiUpS').style.opacity = 1;
+       /* document.getElementById('petAdRiUpS').style.opacity = 1;
+        document.getElementById('petAdLiUpS').style.opacity = 1;*/
 
     }
     
