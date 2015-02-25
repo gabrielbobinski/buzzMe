@@ -69,8 +69,8 @@ function setSideDivsSingle(){
     
     if(viewWidth < '1075'){
         
-        document.getElementById('addContainerRight').style.width = 0;
-        document.getElementById('addContainerLeft').style.width = 0;
+        document.getElementById('addContainerRightS').style.width = 0;
+        document.getElementById('addContainerLeftS').style.width = 0;
         
         document.getElementById('bookhS').style.width = 0;
         document.getElementById('bookhS').style.opacity = 0;
