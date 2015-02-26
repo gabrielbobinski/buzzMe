@@ -224,12 +224,12 @@ div.signUpButton:hover{
     //background-color: rgba(0,0,0,0.8);
     float:top;
     z-index: 300;
-    font-size: 30px;
-    color: gray;
+    font-size: 25px;
+    color: black;
     font-family: mySecondFont;
     text-align:center;
     line-height: 50px;
-    top:0;
+    top:-50px;;
 
 }
 .addBlockPetitionRightUp{
