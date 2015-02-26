@@ -161,11 +161,11 @@ div.signUpButton:hover{
 .leftDiv1 {
     
     overflow: hidden;
-    height: 500px;
+    height: 600px;
     width: 220px;
     //background-color: rgba(255,255,255,0.5);
     position:fixed;
-    top:120px;
+    top:90px;
     bottom:15px;
     left:2vw;
     text-align: center;
@@ -174,7 +174,7 @@ div.signUpButton:hover{
 
 .rightDiv1 {
     
-    height: 600px;
+    height: 500px;
     width: 220px;
     //background-color: rgba(255,255,255,0.2);
     position:fixed;
