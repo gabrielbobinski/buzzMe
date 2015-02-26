@@ -66,12 +66,12 @@ body {
 .centralDiv {
     
     height: auto;
-    width: 700px;
+    width: 600px;
     background-color: rgba(255,255,255,0.8);
     position: absolute;
     top:0px;
     left: 50%;
-    margin-left: -350px;
+    margin-left: -300px;
     z-index:100;
     -webkit-overflow-scrolling: touch;
 
@@ -80,7 +80,7 @@ body {
 .article {
  
     height: 500px;
-    width: 80%;
+    width: 560px;
     
     position:relative;
     margin: 100px auto;
@@ -163,7 +163,7 @@ div.signUpButton:hover{
     overflow: hidden;
     height: 500px;
     width: 220px;
-    background-color: rgba(255,255,255,0.5);
+    //background-color: rgba(255,255,255,0.5);
     position:fixed;
     top:120px;
     bottom:15px;
