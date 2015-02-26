@@ -31,7 +31,7 @@ $( window ).resize(function(){
 
 function setSideDivs(){
     
-    if(viewWidth < '1075'){
+    if(viewWidth < '1080'){
         
         document.getElementById('addContainerRight').style.width = 0;
         document.getElementById('addContainerLeft').style.width = 0;
