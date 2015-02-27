@@ -101,7 +101,7 @@ router.get('/clips', function(req, res) {
            res.render('clips');
            });
 
-/* GET clips page. */
+/* GET webmaster page. */
 router.get('/webmaster', function(req, res) {
            res.render('webmaster');
            });
