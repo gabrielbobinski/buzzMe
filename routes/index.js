@@ -101,10 +101,6 @@ router.get('/clips', function(req, res) {
            res.render('clips');
            });
 
-/* GET webmaster page. */
-router.get('/webmaster', function(req, res) {
-           res.render('webmaster');
-           });
 
 
 
