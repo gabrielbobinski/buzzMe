@@ -342,7 +342,7 @@ div.signUpButton:hover{
     opacity:0.5;
     cursor: url(/images/hand_cursor.png), pointer;
     background-size:contain;
-    background-position:center;
+    background-position:cover;
 
 }
 
@@ -355,7 +355,7 @@ div.signUpButton:hover{
     background-color:clear;
     opacity:0.5;
     cursor: url(/images/hand_cursor.png), pointer;
-    background-size:contain;
+    background-size:cover;
     background-position:center;
 
 }
