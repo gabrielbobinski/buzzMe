@@ -336,7 +336,7 @@ div.signUpButton:hover{
     position:absolute;
     right:0px;
     top: 0px;
-    width:50%;
+    width:60%;
     height:100%;
     background-color:clear;
     opacity:0.5;
@@ -350,7 +350,7 @@ div.signUpButton:hover{
     position:absolute;
     left:0px;
     top: 0px;
-    width:50%;
+    width:40%;
     height:100%;
     background-color:clear;
     opacity:0.5;
