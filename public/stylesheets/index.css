@@ -591,6 +591,12 @@ div.clips:hover{
     .googleContainer {
         background-color:white;
     }
+    .buttonImpressum{
+        width: 600px;
+        height: 200px;
+        line-height:50px;
+        font-size:100px;
+    }
 }
 
 
