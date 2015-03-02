@@ -130,10 +130,11 @@ body {
  
 }
 h2 {
+    top: 0 px;
     font-family:myThirdFont;
     font-weight: lighter;
     text-align:center;
-    line-height:25px;
+    line-height:45px;
     font-size:35px;
 
 }
