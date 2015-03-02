@@ -73,7 +73,7 @@ pg.connect(conString, function(err, client, done) {
            console.log("");
            console.log("[+] List of BuzzMeArticles");
            
-          // client.query("INSERT INTO buzzmezonearticles(title, numberofpages) VALUES( $1, $2 )", ["10 Reasons Why You Should Enjoy Your Beer", 13]); // currently at state 9 Users
+           //client.query("INSERT INTO buzzmezonearticles(title, numberofpages) VALUES( $1, $2 )", ["200 Years Old Still Meditating Monk Found by Scientists ", 6]); // currently at state 9 Users
            //client.query("DELETE FROM  buzzarticles WHERE id = '1'");
         
            client.query("SELECT * FROM buzzmezonearticles", function(err, result) {

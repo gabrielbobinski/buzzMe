@@ -18,7 +18,7 @@ var connection = require('../bin/PGSetup.js')();
 router.get('/', function(req, res) {
     var articles = [0];
     console.log("[+] START BROWSING DB DATA ");
-    connection.query("SELECT * FROM buzzmezonearticles", function(err, result) {
+    connection.query("SELECT * FROM buzzmezonearticles ORDER BY id ASC", function(err, result) {
 
                  console.log("[+] PGdb called from index.js");
                  console.log("");

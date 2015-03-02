@@ -36,6 +36,11 @@ body {
     
 }
 
+  .afilImg{
+
+        height:200px;
+    }
+
 .logoDiv {
  
     height:60%;
@@ -87,6 +92,8 @@ body {
     background-size:cover;
     background-position: center;
     background-color: lightgray;
+    margin-top:150px;
+    margin-bottom:-20px;
 }
 
 .blurr {
@@ -588,8 +595,19 @@ div.clips:hover{
     .litleHeader{
         opacity=;
     }
+
+    .googleContainerHeader {
+
+	height:60px;
+	font-size:40px;
+	line-height:40px;
+	padding-top:20px;
+    }
+
     .googleContainer {
         background-color:white;
+	height:460px;
+	margin-top:100px;
     }
     .buttonImpressum{
         width: 400px;
@@ -597,6 +615,17 @@ div.clips:hover{
         line-height:50px;
         font-size:50px;
     }
+
+    .afilImg{
+
+	height:400px;
+    }
+
+   .article {
+         
+         margin-bottom:0px;
+	 margin-top:170px;
+   }
 }
 
 
