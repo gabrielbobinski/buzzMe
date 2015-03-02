@@ -120,7 +120,7 @@ body {
     color: white;
     font-family:myThirdFont;
     text-align:center;
-    line-height:45px;
+    //line-height:45px;
     //font-size:35px;
     background-size:cover;
     background-position:top;
@@ -133,7 +133,7 @@ h2 {
     font-family:myThirdFont;
     font-weight: lighter;
     text-align:center;
-    //line-height:45px;
+    line-height:25px;
     font-size:35px;
 
 }
