@@ -113,9 +113,9 @@ body {
 .articleTitle {
  
     height:150px;
-    width:96%;
-    padding-left:2%;
-    padding-right:2%;
+    width:94%;
+    padding-left:3%;
+    padding-right:3%;
     background-color:rgba(0,0,0,0.8);
     color: white;
     font-family:myThirdFont;
