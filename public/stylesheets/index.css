@@ -635,6 +635,15 @@ div.clips:hover{
          margin-bottom:0px;
 	 margin-top:170px;
    }
+   .h2 {
+       margin-top: 0%;
+       font-family:myThirdFont;
+       font-weight: lighter;
+       text-align:center;
+       line-height:45px;
+       font-size:50px;
+       
+   }
 }
 
 
