@@ -519,7 +519,7 @@ div.clips:hover{
         height:188px;
         width:96%;
         line-height:60px;
-        font-size:55px;
+        //font-size:55px;
     }
     
     .menue {
@@ -632,10 +632,10 @@ div.clips:hover{
 
    .article {
          
-         margin-bottom:0px;
+     margin-bottom:0px;
 	 margin-top:170px;
    }
-   .h2 {
+   h2 {
        font-weight: lighter;
        text-align:center;
        line-height:45px;
