@@ -440,19 +440,7 @@ div.backward:hover{
 
 }
 .more2{
-    position: relative;
-    top: 25px;
-    width:250px;
-    height:48px;
-    background-color:lightseagreen;
-    //float:right;
-    margin: auto;
-    opacity:0.7;
-    cursor: pointer;
-    background-image: url('/images/more.jpg');
-    background-size:cover;
-    background-position: center;
-    
+    width:0;
 }
 div.more:hover{
     opacity:1;
@@ -625,14 +613,10 @@ div.clips:hover{
         height:0;
     }
     .more{
-        //width:360px;
-         //height:110px;
-        // margin-right:15px;
-        // margin-top:15px;
-         //margin-bottom:15px;
-      //   opacity:1;
-       //  background-image: url('/images/more_phone.jpg');
+        width:0;
         
+    }
+    .more2{
         position: relative;
         top: 25px;
         width:250px;
@@ -645,7 +629,6 @@ div.clips:hover{
         background-image: url('/images/more.jpg');
         background-size:cover;
         background-position: center;
-        
     }
     .frameAmazone{
         height: 0px;
