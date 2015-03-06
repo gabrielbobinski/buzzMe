@@ -684,6 +684,13 @@ div.clips:hover{
        font-size:70px;
        font-family: myThirdFont;
    }
+   .followUsFacebook{
+       width: 4%;
+   }
+   .followUsTwitter{
+       width: 4%;
+       left: 17%
+   }
 }
 
 
