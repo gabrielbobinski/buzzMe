@@ -22,7 +22,49 @@ body {
     background-size: cover;
     
 }
-
+.followUs{
+    top:22%;
+    position:absolute;
+    width: 10%;
+    height: 78%;
+    background-color: clear;
+    left: 1%;
+    text-align:center;
+    line-height: 25px;
+    font-family: myFirstFont;
+    font-size: 20px;
+    color: white;
+}
+.followUsFacebook{
+    position:absolute;
+    width: 3.5%;
+    height: 100%;
+    background-color: clear;
+    left: 12%;
+    background-image:url('/images/followFacebook.jpg');
+    background-size:cover;
+    background-position:top;
+    cursor: pointer;
+    opacity:0.8;
+}
+div.followUsFacebook:hover{
+    opacity:1;
+}
+.followUsTwitter{
+    position:absolute;
+    width: 3.5%;
+    height: 100%;
+    background-color: clear;
+    left: 16%;
+    background-image:url('/images/followTwitter.jpg');
+    background-size:cover;
+    background-position:top;
+    cursor: pointer;
+    opacity:0.8;
+}
+div.followUsTwitter:hover{
+    opacity:1;
+}
 .smallLogoDiv {
  
     width:60px;
