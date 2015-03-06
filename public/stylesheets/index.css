@@ -618,9 +618,9 @@ div.clips:hover{
     }
     .more2{
         position: relative;
-        top: 25px;
-        width:500px;
-        height:100px;
+        top: 35px;
+        width:600px;
+        height:120px;
         background-color:lightseagreen;
         margin: auto;
         //opacity:0.7;
