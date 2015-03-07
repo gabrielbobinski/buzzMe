@@ -518,7 +518,17 @@ div.clips:hover{
     z-index:300;
 }
 
-
+.getBuzzed{
+    width: 60px;
+    height: 60px;
+    background-image: url('/images/getBuzzed.png');
+    position:relative;
+    margin: auto;
+    top: 140px;
+    background-size: cover;
+    background-position:top;
+    
+}
 
 @media only screen and (max-device-width: 800px) {
     
