@@ -116,10 +116,11 @@ div.followUsTwitter:hover{
     width: 600px;
     background-color: rgba(255,255,255,0.8);
     position: absolute;
-    top:0px;
+    
     left: 50%;
     margin-left: -300px;
     z-index:100;
+    top: -50px;
     -webkit-overflow-scrolling: touch;
 
 }
@@ -538,10 +539,21 @@ div.clips:hover{
         position:relative;
         left: 0;
         margin-left: 0;
-        margin-top: 300px;
+        margin-top: 200px;
         background-color:transparent;
     }
-    
+    .getBuzzed{
+        width: 200px;
+        height: 200px;
+        background-image: url('/images/getBuzzed.png');
+        position:relative;
+        margin: auto;
+        top: 100px;
+        background-size: cover;
+        background-position:top;
+        
+    }
+
     .article {
         
         height: 880px;
