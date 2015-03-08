@@ -469,6 +469,20 @@ div.more:hover{
     color: gray;
     cursor: pointer;
 }
+.home{
+    width: 200px;
+    height: 50px;
+    background-color:clear;
+    position:absolute;
+    float: bottom;
+    text-align: center;
+    line-height:50px;
+    font-family: arial;
+    font-size:15px;
+    color: gray;
+    cursor: pointer;
+
+}
 div.buttonImpressum:hover{
     color: #2E2E2E;
 }
