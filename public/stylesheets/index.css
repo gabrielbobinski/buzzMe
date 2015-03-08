@@ -770,6 +770,12 @@ div.clips:hover{
        width:0;
        opacity:0;
    }
+   .home{
+       height:300px;
+       line-height: 200px;
+       font-size: 60px;
+       
+   }
    
 }
 
