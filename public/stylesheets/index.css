@@ -83,6 +83,13 @@ div.followUsTwitter:hover{
         height:200px;
     }
 
+    .advertisemnetDiv {
+
+        width:336px;
+        height:280px;
+
+     }
+
 .logoDiv {
  
     height:60%;
@@ -682,15 +689,21 @@ div.clips:hover{
 
     .googleContainerHeader {
 
-	height:60px;
-	font-size:40px;
-	line-height:40px;
+	height:70px;
+	margin:auto;
+	position:relative;
+	width:90%;
+	font-size:50px;
+	line-height:50px;
+	font-family:myThirdFont;
 	padding-top:20px;
     }
 
     .googleContainer {
         background-color:white;
 	height:460px;
+	//overflow:hidden;
+	width:100%;
 	margin-top:100px;
     }
     .buttonImpressum{
@@ -704,12 +717,24 @@ div.clips:hover{
 
 	height:400px;
     }
+	
+
+    .advertisemnetDiv {
+
+	width:900px;
+	height:300px;
+	margin-top:100px;
+	margin:0;
+	padding:0;
+	left:-20px;
+     }
 
    .article {
          
-     margin-bottom:0px;
-	 margin-top:170px;
+     	margin-bottom:0px;
+	margin-top:170px;
    }
+
    h2 {
        font-weight: lighter;
        text-align:center;
