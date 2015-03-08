@@ -470,6 +470,7 @@ div.more:hover{
     cursor: pointer;
 }
 .home{
+    left: 50px;
     width: 200px;
     height: 50px;
     background-color:clear;
@@ -774,7 +775,7 @@ div.clips:hover{
        height:300px;
        line-height: 200px;
        font-size: 60px;
-       
+       left: 100px;
    }
    
 }
