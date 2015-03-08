@@ -588,7 +588,7 @@ div.clips:hover{
     .articleTitle {
         
         top:-1px;
-        //font-family:mySecondFont;
+        font-family:mySecondFont;
         position:absolute;
         margin-top:0px;
         height:188px;
@@ -741,7 +741,8 @@ div.clips:hover{
        text-align:center;
        line-height:70px;
        font-size:70px;
-       font-family: myThirdFont;
+       font-family:mySecondFont;
+       //font-family: myThirdFont;
    }
    .followUsFacebook{
        width: 6%;
