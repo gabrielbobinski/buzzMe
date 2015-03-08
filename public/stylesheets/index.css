@@ -104,7 +104,30 @@ div.followUsTwitter:hover{
     top:15px;
  
 }
-
+.music{
+    position:absolute;
+    right: 8%;
+    background-color: clear;
+    width:8%;
+    height:100%;
+    cursor: pointer;
+    opacity:0;
+    overflow:hidden;
+}
+.playPause{
+    position:absolute;
+    right: 8%;
+    background-color: clear;
+    width:7%;
+    height:90%;
+    cursor: pointer;
+    opacity:1;
+    overflow:hidden;
+    background-image: url('/images/music.png');
+    background-size:cover;
+    background-position:center;
+    //pointer-events: none;
+}
 .thinLine {
  
    height:1px;

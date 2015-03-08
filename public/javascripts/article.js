@@ -1,6 +1,23 @@
 
 var articlePictureStatus = 0;
 var actualArticle = 0;
+var musicstatus = 0;
+
+function playPause(){
+    
+    if(musicstatus===0){
+        
+        document.getElementById('playPause').style.backgroundImage = "url('/images/pause.png')";
+        musicstatus = 1;
+        
+    }else{
+        
+        document.getElementById('playPause').style.backgroundImage = "url('/images/music.png')";
+        musicstatus = 0;
+        
+    }
+};
+
 
 function nextPicture(id, numImgs){
     

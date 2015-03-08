@@ -1,6 +1,5 @@
 
 
-
 function setDimensions(){
     
     viewHeight = $( window ).height();
@@ -65,5 +64,6 @@ function setSideDivs(){
     
     
 };
+
 
 
