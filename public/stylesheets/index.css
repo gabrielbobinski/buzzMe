@@ -32,6 +32,13 @@ body {
     //color: #2E2E2E;
     color :gray;
 }
+.footerText{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
 .followUs{
     top:22%;
     position:absolute;
@@ -825,8 +832,8 @@ div.clips:hover{
    .impressum{
        top: 200px;
    }
-   .footer{
-      // top:200px;
+   .footerText{
+       top: 300px;
    }
    
 }
