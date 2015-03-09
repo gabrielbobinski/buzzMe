@@ -70,10 +70,10 @@ body {
     background-size:cover;
     background-position:top;
     cursor: pointer;
-    opacity:0.8;
+    opacity:1;
 }
 div.followUsFacebook:hover{
-    opacity:1;
+    opacity:0.8;
 }
 .followUsTwitter{
     position:absolute;
@@ -85,10 +85,10 @@ div.followUsFacebook:hover{
     background-size:cover;
     background-position:top;
     cursor: pointer;
-    opacity:0.8;
+    opacity:1;
 }
 div.followUsTwitter:hover{
-    opacity:1;
+    opacity:0.8;
 }
 .smallLogoDiv {
  
@@ -264,13 +264,13 @@ h2 {
     margin-right:6px;
     margin-top:6px;
     margin-bottom:6px;
-    opacity:0.7;
+    opacity:1;
     cursor: pointer;
  
 }
 
 div.socialButton:hover{
-    opacity: 1;
+    opacity: 0.8;
     
 }
 div.signUpButton:hover{

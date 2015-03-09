@@ -19,13 +19,13 @@ function articleOut(id) {
 
 function musicHoverOn(){
 
-    document.getElementById('playPause').style.opacity = 1;
+    document.getElementById('playPause').style.opacity = 0.8;
     
 }
 
 function musicHoverOut(){
     
-    document.getElementById('playPause').style.opacity = 0.8;
+    document.getElementById('playPause').style.opacity = 1;
     
 }
 
