@@ -152,7 +152,7 @@ div.followUsTwitter:hover{
     background-size:cover;
     background-position:top;
     cursor: pointer;
-    opacity:0.8;
+    opacity:1;
     pointer-events: none;
 }
 div.playPause:hover{
