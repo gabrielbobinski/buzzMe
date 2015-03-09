@@ -721,8 +721,14 @@ div.clips:hover{
         transform: scale(0);
     }
     
-    .leftDiv1{ width=0;}
-    .rightDiv1{ width=0;}
+    .leftDiv1{
+        width=0;
+        opacity:0;
+    }
+    .rightDiv1{
+        width=0;
+        opacity:0;
+    }
     
     .addBlockPetitionRightUp{
         width=0;
