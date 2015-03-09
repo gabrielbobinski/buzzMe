@@ -17,7 +17,17 @@ function articleOut(id) {
 
 
 
+function musicHoverOn(){
 
+    document.getElementById('playPause').style.opacity = 1;
+    
+}
+
+function musicHoverOut(){
+    
+    document.getElementById('playPause').style.opacity = 0.8;
+    
+}
 
 
 
