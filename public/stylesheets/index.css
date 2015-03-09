@@ -520,7 +520,7 @@ div.more:hover{
     cursor: pointer;
 
 }
-div.home{
+div.home:hover{
     color: black;
 }
 div.buttonImpressum:hover{
