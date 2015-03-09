@@ -131,27 +131,32 @@ div.followUsTwitter:hover{
 }
 .music{
     position:absolute;
-    right: 8%;
+    width: 3.5%;
+    height: 100%;
     background-color: clear;
-    width:8%;
-    height:100%;
+    right: 12%;
+    //background-image:url('/images/music.jpg');
+    background-size:cover;
+    background-position:top;
     cursor: pointer;
-    opacity:0;
+    opacity:1;
     overflow:hidden;
 }
 .playPause{
     position:absolute;
-    right: 8%;
+    width: 3.5%;
+    height: 100%;
     background-color: clear;
-    width:7%;
-    height:90%;
-    cursor: pointer;
-    opacity:1;
-    overflow:hidden;
-    background-image: url('/images/music.png');
+    right: 12%;
+    background-image:url('/images/music.jpg');
     background-size:cover;
-    background-position:center;
-    //pointer-events: none;
+    background-position:top;
+    cursor: pointer;
+    opacity:0.8;
+    pointer-events: none;
+}
+div.playPause:hover{
+    opacity:1;
 }
 .thinLine {
     float:top;
@@ -849,7 +854,15 @@ div.clips:hover{
    .footerSection{
        top:80px;
    }
-   
+   .music{
+       width: 6%;
+       right:4%
+   }
+   .playPause{
+       width: 6%;
+       right:4%
+   }
+
 }
 
 
