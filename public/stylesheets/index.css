@@ -833,7 +833,8 @@ div.clips:hover{
        top: 200px;
    }
    .footerText{
-       top: 300px;
+       top: 200px;
+       font-size: 50px;
    }
    
 }
