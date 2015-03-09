@@ -9,5 +9,6 @@
 <url>
   <loc>http://buzzme.zone/</loc>
   <changefreq>daily</changefreq>
+  <priority>1.0</priority>
 </url>
 </urlset>
