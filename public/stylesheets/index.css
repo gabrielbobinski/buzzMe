@@ -90,6 +90,21 @@ div.followUsFacebook:hover{
 div.followUsTwitter:hover{
     opacity:0.8;
 }
+.clips{
+    position:absolute;
+    width: 3.5%;
+    height: 100%;
+    background-color: clear;
+    right: 16%;
+    background-image:url('/images/clips.jpg');
+    background-size:cover;
+    background-position:top;
+    cursor: pointer;
+    opacity:1;
+}
+div.clips:hover{
+    opacity:0.8;
+}
 .smallLogoDiv {
  
     width:60px;
@@ -547,28 +562,6 @@ div.home:hover{
 }
 div.buttonImpressum:hover{
     color: black;
-}
-
-.clips{
-    width: 120px;
-    height: 100%;
-    position: absolute;
-    left: 20%;
-    font-family:mySecondFont;
-    font-weight: regular;
-    color: #7cb0ff;
-    line-height:85px;
-    font-size:25px;
-    text-align:center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    text-align:center;
-    z-index: 300;
-}
-div.clips:hover{
-    color: white;
-    background-color: #7cb0ff;
 }
 .youtube{
     
