@@ -14,6 +14,12 @@
 
     <div class="smallLogoDiv" onclick="window.location.replace('article1')"></div>
     <div class="logoDiv"></div>
+    
+    <div class="playPause" id="playPause"></div>
+    <div class="music" onmouseover="musicHoverOn()" onmouseout="musicHoverOut()">
+        <iframe style="top:-50px; position: relative;" width="560" height="315" src="https://www.youtube.com/embed/1mrNPDAJpnA" frameborder="0" allowfullscreen></iframe>
+        <!--<iframe style="top:-50px; position: relative;" width="300" height="250" src="https://www.youtube.com/embed/LaP1H-JJroU" frameborder="0" allowfullscreen></iframe>-->
+    </div>
 
 </div>
 
@@ -84,8 +90,20 @@
     
     {{/articlesData}}
     
-    <div class="buttonImpressum" onclick="window.location.replace('/impressum')">IMPRESSUM</div>
-    
-</div>
+    <div class="footer">
+        <div class="thinLine"></div>
+        <div class="buttonImpressum" onclick="window.location.replace('/impressum')">IMPRESSUM</div>
+        <div class="footerText">
+            <h3><strong>Welcome to Buzz Me Zone </strong></h3>
+            <div class="footerSection">
+                <p><strong>BuzzMeZone is an online entertainment company that provides breaking news.
+                    All the content is optimzed for sharing in all common social Networks like Facebook and Twitter.<br><br>
+                    Enjoy our stunnning Stories accompanied by breathtaking images, collected for you on " www.buzzme.zone ". </strong></p>
+            </div>
+            <p></p>
+            <p></p>
+        </div>
+    </div>
 
+</div>
 </html>
