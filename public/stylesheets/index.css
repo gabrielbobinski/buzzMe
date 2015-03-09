@@ -39,6 +39,14 @@ body {
     top: 100px;
     text-align: center;
 }
+.footerSection{
+    width:94%;
+    text-align:left;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    padding: 3%;
+}
 .followUs{
     top:22%;
     position:absolute;
@@ -835,6 +843,9 @@ div.clips:hover{
    .footerText{
        top: 200px;
        font-size: 40px;
+   }
+   .footerSection{
+       top:80px;
    }
    
 }
