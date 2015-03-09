@@ -182,10 +182,10 @@ div.followUsTwitter:hover{
 
 .article {
  
-    //height: 500px;
-    //width: 560px;
-    height: 525px;
-    width: 588px;
+    height: 500px;
+    width: 560px;
+    //height: 525px;
+    //width: 588px;
     
     position:relative;
     margin: 100px auto;
