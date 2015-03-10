@@ -47,6 +47,18 @@ body {
     top: 30px;
     padding: 3%;
 }
+.info{
+    position: absolute;
+    margin-top: 160px;
+    font-family: myFirstFont;
+    font-size: 15px;
+    color: black;
+    background-color:gray;
+    height: 500px;
+    width: 560px;
+    left:50%;
+    margin-left:-280px;
+}
 .followUs{
     top:22%;
     position:absolute;
@@ -57,7 +69,7 @@ body {
     text-align:center;
     line-height: 25px;
     font-family: myFirstFont;
-    font-size: 20px;
+    font-size: 1.5vw;
     color: white;
 }
 .followUsFacebook{
@@ -118,17 +130,16 @@ div.clips:hover{
     
 }
 
-  .afilImg{
+.afilImg{
+    height:200px;
+}
 
-        height:200px;
-    }
+.advertisemnetDiv {
 
-    .advertisemnetDiv {
+    width:336px;
+    height:280px;
 
-        width:336px;
-        height:280px;
-
-     }
+}
 
 .logoDiv {
  
