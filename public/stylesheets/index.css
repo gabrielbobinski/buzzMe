@@ -866,7 +866,10 @@ div.buttonImpressum:hover{
        width: 6%;
        right:4%
    }
-
+   .info{
+       margin-top: 300px;
+   }
+       
 }
 
 
